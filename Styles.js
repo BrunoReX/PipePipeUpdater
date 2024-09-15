@@ -16,7 +16,7 @@ export const Styles = StyleSheet.create({
   footerContainer: {
     flex: 1 / 3,
     alignItems: "center",
-    marginBottom: 50,
+    marginBottom: 110,
     marginHorizontal: 5,
     textAlign: "center",
   },
@@ -26,7 +26,7 @@ export const Styles = StyleSheet.create({
   },
   text: {
     color: "#000",
-    fontSize: 36,
+    fontSize: 28,
     textTransform: "uppercase",
   },
   textTitle: {
@@ -39,7 +39,18 @@ export const Styles = StyleSheet.create({
   checkbox: {
     alignSelf: "center",
   },
-  checkText: {
+  checkBoxLabel: {
+    marginLeft: -3,
     margin: 5,
+  },
+  dropDown: {
+    marginTop: 60,
+    marginHorizontal: 60,
+    alignItems: "center",
+  },
+  textApk: {
+    color: "#000",
+    fontSize: 22,
+    textTransform: "uppercase",
   },
 });
