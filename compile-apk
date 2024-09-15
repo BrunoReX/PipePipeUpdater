@@ -1,0 +1,5 @@
+#!/bin/sh
+
+npx react-native build-android --mode=release
+cd android
+./gradlew assembleRelease
